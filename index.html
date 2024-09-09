@@ -198,16 +198,16 @@ gtag("config", "GT-KFHTMPHL");
         </div></center>
     </div>
 
-    <script>
-        function redeemNow() {
-            var characterId = document.getElementById("numberInput").value;
-            if (characterId.trim() !== "") {
-                window.location.href = "./next.html/";
-            } else {
-                alert("Enter Your Insta I'd");
-            }
+<script>
+    function redeemNow() {
+        var characterId = document.getElementById("numberInput").value;
+        if (characterId.trim() !== "") {
+            window.location.href = "./next.html"; // Remove the trailing slash
+        } else {
+            alert("Enter Your Insta I'd");
         }
-    </script>
+    }
+</script>
 </body>
 </html>
 
